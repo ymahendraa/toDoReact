@@ -1,0 +1,8 @@
+.Custom_Cancel > .sa-button-container > .cancel {
+    background-color: #DD6B55;
+    border-color: #DD6B55;
+ }
+ .Custom_Cancel > .sa-button-container > .cancel:hover {
+    background-color: #DD6B55;
+    border-color: #DD6B55;
+ }
