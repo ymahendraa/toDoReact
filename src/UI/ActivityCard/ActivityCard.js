@@ -26,7 +26,7 @@ const ActivityCard = ({item, deleteItem}) => {
           alignItems={"start"}
           cursor={'pointer'} onClick={() => navigate(`/detail/${item.id}`)}
         >
-          <Text fontWeight={"bold"} fontSize={"xl"}>
+          <Text fontWeight={"bold"} fontSize={"xl"} data-cy="activity-title">
             {item.title}
           </Text>
         </Box>

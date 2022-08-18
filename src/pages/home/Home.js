@@ -126,7 +126,7 @@ const HomeScreen = () => {
           mt={"3rem"}
           mx={'2rem'}
         >
-          <Text color={"#000"} fontSize={"4xl"} fontWeight={"bold"}>
+          <Text color={"#000"} fontSize={"4xl"} fontWeight={"bold"} data-cy="header-title">
             Activity
           </Text>
           <Button
@@ -136,6 +136,7 @@ const HomeScreen = () => {
             color={"#ffff"}
             borderRadius="2rem"
             onClick={mutateCreate}
+            data-cy="activity-add-button"
           >
             Tambah
           </Button>
@@ -145,7 +146,7 @@ const HomeScreen = () => {
         
         } */}
         {isSuccess ? (
-          <div data-cy="filled-state-activity">
+          <div data-cy="activity-item">
             <Stack
               width={"100%"}
               // height={"85vh"}
